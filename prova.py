@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS Alunos (
 
 
 4-'LISTAR TODOS NA TABELA'#cursor.execute("SELECT * FROM Alunos ")
-
+CODIGO ERRADO !# cursor.execute("SELECT nome FROM Alunos ")
 
 5-'BUSCAR ALUNOS POR ID'#cursor.execute ("SELECT nome FROM Alunos WHERE id = 2")
 6-'ATUALIZAR REGISTROS'#cursor.execute ("UPDATE Alunos SET nome = 'Victor' WHERE nome = 'PauloValero' ")
@@ -30,5 +30,6 @@ CREATE TABLE IF NOT EXISTS Alunos (
 print(cursor.fetchall())
 
 conn.commit()
+
 
 
