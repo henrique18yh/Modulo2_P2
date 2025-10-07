@@ -31,5 +31,4 @@ print(cursor.fetchall())
 
 conn.commit()
 
-# cursor.execute("SELECT nome FROM Alunos ")
-# print(cursor.fetchall())
+
